@@ -1,0 +1,6 @@
+language: objective-c
+xcode_sdk: iphonesimulator
+xcode_workspace: Example/BackgroundUpload-CocoaLumberjack.xcworkspace
+xcode_scheme: BackgroundUpload-CocoaLumberjack-Example
+before_script:
+  - pod lib lint --quick
